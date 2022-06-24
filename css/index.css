@@ -1,0 +1,119 @@
+body {
+    /*background-color: rgb(169, 219, 248);*/
+    background-image: url(../images/divBC3.jpg);
+    font-family:  Georgia, "Times New Roman", Times, serif ;
+    font-size: medium;
+    margin: 0px;
+    text-align: center;
+
+}
+header{
+
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    height: 150px;
+}
+
+#tableContainer{ /*表格布局*/
+    display: table;
+    border-spacing: 10px;
+    text-align: center;
+}
+
+#tableRow {/*表格行*/
+    display: table-row;
+}
+#part_1{/*表格单元格*/
+    display: table-cell;
+    background-image: url(../images/divBC.jpg);
+    width: 400px;
+    padding: 20px;
+    vertical-align: top;
+    line-height: 2em;
+}
+
+#part_2 h1{/*修改第二表格列的标题字体大小，子孙选择器*/
+    font-size: 135%;
+    
+}
+
+
+#part_2{    /*表格单元格*/
+    display: table-cell;
+    background-image: url(../images/divBC2.jpg);
+    font-size: 120%;
+    padding: 15px;
+    margin:auto;
+    vertical-align: top;
+    text-align: left;
+    width: 700px;
+    line-height: 1.5em;
+}
+aside{/*表格单元格*/
+    display: table-cell;
+    background-image: url(../images/divBC.jpg);
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    vertical-align: top;
+    line-height: 2em;
+}
+
+
+footer{
+    background-color: bisque;
+    color:rgb(8, 38, 65);
+    text-align : center;
+    padding: 25px;
+    margin: 0 10px 10px 10px;
+    font-size: 80%;
+}
+
+table {
+    border: 2px solid rgb(30, 2, 2);
+    border-spacing: 10px;
+    border-collapse: collapse;     /*把紧挨的边框合并为一个，有border-collapse: collapse; 之后border-spacing就不起作用了*/
+    margin: 0 auto;
+}
+
+th{
+    border: 1px solid rgb(170, 170, 250);
+    padding: 10px;
+}
+
+th:nth-child(1){/*伪类，选择表格第一列，单独设置背景颜色*/
+    background-color: rgb(250, 211, 143);
+}
+
+/*tr{
+    border: 1px solid rgb(170, 170, 250);
+}
+*/
+
+nav{
+    background-image: url(../images/navBC.jpg);
+    margin: 10px 10px 0px 10px;
+    height: 50px;
+}
+
+nav ul li{  /*修改无序列表项为内联元素*/
+    display: inline;
+    padding: 120px 120px 120px;
+    font-size: 200%;
+}
+
+
+/*修改链接颜色*/
+nav a:link{
+    color: rgb(55, 154, 240);
+
+}
+
+nav a:visited{
+    color: rgb(246, 170, 89);
+
+}
+
+nav a:hover{
+    color: #7e7e7e;
+}

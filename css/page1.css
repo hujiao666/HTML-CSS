@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(169, 219, 248);
+    font-family:  Georgia, "Times New Roman", Times, serif ;
+    font-size: medium;
+    margin: 0px;
+    background-image: url(../images/travelBC.jpg);
+    text-align: center;
+
+}
+header{
+    background-image: url(../images/divBC3.jpg);
+    margin: 10px 10px 0px 10px;
+    height: 150px;
+}
+/*机票图片使用绝对定位，想左-120，半遮掩效果*/
+#ticket{
+    position:absolute;
+    top: 150px;
+    left: -120px;
+
+}
+
+nav{
+    background-image: url(../images/navBC.jpg);
+    margin: 10px 10px 0px 10px;
+    height: 50px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 120px 120px 120px;
+    font-size: 200%;
+}
+
+#introduction{
+    font-family:Georgia,"Times New Roman",Times,serif;
+	color:#223427;					/*文本颜色*/
+	font-style:italic;
+	line-height: 1.1em;
+	border:2px dashed white;
+	padding:5px;             /*padding内边距*/
+	padding-left:5px;
+	margin: 5px;px;                 /*margin外边距*/
+	margin-right:5px;
+	background-color:#b8cea7;	
+}
+/*大多采用相对定位的方式进行位置摆放*/
+#America{
+    position: absolute;
+    top: 780px;
+    left: 30px;
+}
+
+#paw1{
+    position: relative;
+    left: 150px;
+    top: -150px;
+}
+#Finland{
+    position: absolute;
+    top: 700px;
+    left: 600px;
+
+}
+
+#paw2{
+    position: relative;
+    left: 150px;
+    top: -50px;
+}
+
+#Canada{
+    position: absolute;
+    top: 1100px;
+    left: 1100px;
+
+}
+
+
+
+#Beigium{
+    position: absolute;
+    top: 1400px;
+    left: 800px;
+
+}
+
+#paw4{
+    position: relative;
+    left: -150px;
+    top: -180px;
+}
+
+#Russia{
+    position: absolute;
+    top: 1200px;
+    left: 300px;
+
+}
+
+
+#Norway{
+    position: absolute;
+    top: 1800px;
+    left: 600px;
+
+}
+
+
+
+
+
+footer{
+    background-color: bisque;
+
+    color:rgb(8, 38, 65);
+    text-align : center;
+    padding: 25px;
+    margin: 1550px 10px 10px 10px;
+    font-size: 80%;
+
+}
+
+/*修改链接颜色*/
+nav a:link{
+    color: rgb(55, 154, 240);
+
+}
+
+nav a:visited{
+    color: rgb(246, 170, 89);
+
+}
+
+nav a:hover{
+    color: #7e7e7e;
+}

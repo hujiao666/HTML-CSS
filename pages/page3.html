@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi I'm zueler</title>
+    <link rel="stylesheet" type="text/css" href="../css/page3.css">
+    
+</head>
+<body>
+    <header class="sign">
+        <img id="Welcome" src="../images/ZUELer.png" alt="Welcome to Jerry's Homepage">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">index</a></li>
+            <li><a href="./page1.html">page1</a></li>
+            <li><a href="./page2.html">page2</a></li>
+        </ul>
+    </nav>
+    <div id="logo"><img id="" src="../images/logo.png" alt="zuelLogo"></div>
+    <div id="wenbolou">
+        <img id="" src="../images/wenbolou.png" alt="wenbolou">
+    </div>
+    <div id="bridge">
+        <img id="" src="../images/bridge.png" alt="9bridge">
+    </div>
+
+<!--使用表格布局，每个选项的说明作为表格的第一列，选项或文字框作为第二列-->
+<!--选择表格的第一列，右对齐-->
+<!--学校徽标采用凝胶布局，固定宽度，左右设置自动-->
+<!--使用学校的元素，文波楼和九孔桥，ps出图做背景，绝对定位，放置在表单两侧-->
+    <h1>更多相关，登录查看</h1>
+    <center>
+    <form action="" method="post">
+            <div class="tableRow">
+                <p>
+                    请选择学院
+                </p>
+                <p>
+                <select id="department" name="department">
+                    <option value="信息与安全工程学院">信息与安全工程学院</option>
+                    <option value="法学院">法学院</option>
+                    <option value="财税学院">财税学院</option>
+                    <option value="金融学院">金融学院</option>
+                    <option value="统计与数学学院">统计与数学学院</option>
+                </select>
+                </p>   
+            </div>
+            <div class="tableRow">
+                <p>专业班级</p>
+                <input type="text" id="class" name="class" value="" placeholder="例：数金2001" required>
+            </div>
+            <div class="tableRow">
+                <p>姓名</p>
+                <input type="text" id="name" name="name" value="" placeholder="姓名 name xxx" required>
+            </div>
+            <div class="tableRow">
+                <p>性别</p>
+                <p>
+                    <input type="radio" id="1" name="sex" value="1">
+                        <label for="1">男</label>
+                    <input type="radio" id="0" name="sex" value="0">
+                        <label for="0">女</label>
+                </p>
+            </div>
+            
+            <div class="tableRow">
+                <p>学号</p>
+                <p><input type="number" id="number" name="number" value="" placeholder="学号" required></p>
+            </div>
+            <div class="tableRow">
+                <p> 教学楼: </p>
+                <p>
+                    <input type="checkbox" name="building" value="giftwrap"> 文波楼<br>
+                    <input type="checkbox" name="building" value="catalog" checked>文澜楼<br>
+                    <input type="checkbox" name="building" value="giftwrap"> 文泰楼<br>                    
+                </p>
+            </div>
+            <div class="tableRow">
+                <p>电话号码</p>
+                <p><input type="tel" id="call" name="call" value="" placeholder="tel" required></p>
+            </div>
+            <div class="tableRow">
+                <p><label>确认提交</label></p>
+                <p> <input type="submit" value="提交"> </p>
+            </div>
+       
+    </form>
+</center>
+    <footer>
+        This is the page3 of Jerry's website<br>
+        <time datetime="2022-06">2022年6月</time>
+    </footer>
+
+</body>
+</html>

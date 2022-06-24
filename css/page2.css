@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(169, 219, 248);
+    background-image: url(../images/page2BC.jpg);
+    font-family:  Georgia, "Times New Roman", Times, serif ;
+    font-size: medium;
+    margin: 0px;
+    text-align: center;
+
+}
+header{
+    background-image: url(../images/divBC3.jpg);
+    margin: 10px 10px 0px 10px;
+    height: 150px;
+}
+#main{/*运用表格布局*/
+    display: table;
+    background: url(../images/) top left;
+    font-size: 110%;
+    padding: 15px;
+    margin: 0px 350px 10px 10px;
+
+}
+
+#main1{
+
+    border: dashed 2px black;
+    line-height: 1.3em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif ;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 600px;
+    background-image: url(../images/movie.png);
+    background-repeat: no-repeat;
+    background-position: top left;/*添加背景图片图标，不重复，放置在左上角*/
+
+}    
+
+#main2{
+
+    border: solid rgb(9, 5, 5);
+    width: 500px;       /*固定浮动元素宽度*/
+    background-image: url();
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 2.5em;
+    padding: 15px 15px 10px 15px;
+    margin: auto;
+    
+    margin-top: 30px;
+    float: left;        /*浮动在左边*/
+    background-image: url(../images/music.png);
+    background-repeat: no-repeat;
+    background-position: top left;/*添加背景图片图标，不重复，放置在左上角*/
+
+}
+
+#apart{
+    border: solid 2px rgb(9, 5, 5);
+    font-size: 95%;
+    padding: 15px;
+    margin: -230px 10px 30px 0px;   
+    width: auto;
+    position: absolute; /*边栏绝对定位*/
+    top: 500px;
+    right: 0px;
+}
+
+#apart h1{
+    font-size: 2.0em;
+}
+
+#apart a{
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+
+nav{
+    background-image: url(../images/navBC.jpg);
+    margin: 10px 10px 0px 10px;
+    height: 50px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 120px 120px 120px;
+    font-size: 200%;
+}
+footer{     
+    background-color: bisque;
+    color:rgb(8, 38, 65);
+    text-align : center;
+    padding: 25px;
+    margin: 0 10px 10px 10px;
+    font-size: 80%;
+    clear: left;
+}
+
+nav a:link{
+    color: rgb(55, 154, 240);
+
+}
+
+nav a:visited{
+    color: rgb(246, 170, 89);
+
+}
+
+nav a:hover{
+    color: #7e7e7e;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <title>Welcome to Jerry's Homepage</title>
+</head>
+<!--index首页，个人简介，homepage，设置页眉，导航
+三栏表格布局，使用section和aside html5元素 -->
+<body>
+    <header class="sign"><!--使用ps字体栅格化图片做标题-->
+        <p><img id="Welcome" src="../images/welcome.png" alt="Welcome to Jerry's Homepage"></p><!--放入段落居中-->
+    </header>
+    <nav><!--导航区，设置行内元素，链接page1，2，3-->
+        <ul>
+            <li><a href="./page1.html">page1</a></li>
+            <li><a href="./page2.html">page2</a></li>
+            <li><a href="./page3.html">page3</a></li>
+        </ul>
+    </nav>
+    
+    <div id="tableContainer"><!--表格布局，一行三列的表格，实现分三栏-->
+        <div id="tableRow"><!--css选择器表格行样式-->
+            <section id="part_1"><!--表格第一列-->
+                <h1>
+                   Hi I'm ZUELer 
+                </h1>
+                <p> 
+                    就读于中南财经政法大学<br>
+                    信息与安全工程学院<br>
+                    2020级大数据管理与应用+金融工程专业<br>
+                </p>   
+                <p> <img id="zuel" src="../images//zuel.jpg" alt="zuel图片"></p>
+            </section>
+            <section id="part_2">   <!--布局表格第二列-->
+                <h1>
+                    Nice To Meet You!诺，把我介绍给你 〃￣ω￣〃
+                </h1>
+                <table><!--内容表格，简历展示，5行2列表格-->
+                    <tr>
+                        <th>基本资料</th>
+                        <th>
+                            姓名：李嘉瑞<br>
+                            性别：女<br>
+                            学历：本科<br>
+                            邮箱：202021130008@stu.zuel.edu.cn
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>教育经历</th>
+                        <th>
+                            学校：中南财经政法大学<br>
+                            专业：大数据管理与应用+金融工程专业
+                        </th>                    
+                    </tr>
+                    <tr>
+                        <th>实践经历</th>
+                        <th>
+                            校团委宣传部艺术设计办公室副主任<br>
+                            信息与安全工程学院主持队副队长<br>
+                            汉中四方会计师事务所实习
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>技能证书</th>
+                        <th>
+                            通过FRM一级考试<br>
+                            CET四级 604
+                        </th>
+                    </tr>
+                    <tr>  
+                        <th>自我评价</th>
+                        <th>
+                            有较强的团队合作精神学习能力
+                        </th>
+                    </tr> 
+                </table>
+            </section>
+            <aside> <!--边栏链接page1.2.3，介绍具体爱好内容-->
+                <h1>
+                    一些爱好
+                </h1>
+                <p>
+                    旅游<a href="./page1.html">我的游记</a><br>
+                    电影<a href="./page2.html">我的文娱</a><br>
+                    音乐<a href="./page2.html">我的文娱</a><br>
+                    运动<a href="./page2.html">我的文娱</a><br>
+                </p>
+                <p> <img id="zuel" src="../images/hobby.png" alt="hobby"></p><!--将图片放入块元素，使用text-align作用于块元素居中对齐-->
+            </aside>
+        </div>
+    </div>
+    <footer><!--页脚区，标记页面，时间-->
+        This is the index page of Jerry's website<br>
+        <time datetime="2022-06">2022年6月</time>
+    </footer>
+</body>
+</html>

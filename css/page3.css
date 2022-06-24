@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(169, 219, 248);
+    background-image: url(../images/page2BC.jpg);
+    font-family:  Georgia, "Times New Roman", Times, serif ;
+    font-size: medium;
+    margin: 0px;
+    text-align: center;
+    
+
+}
+header{
+    background-image: url(../images/divBC3.jpg);
+    margin: 10px 10px 0px 10px;
+    height: 150px;
+
+}
+nav{
+    background-image: url(../images/navBC.jpg);
+    margin: 10px 10px 0px 10px;
+    height: 50px;
+
+}
+
+nav ul li{
+    display: inline;
+    padding: 120px 120px 120px;
+    font-size: 200%;
+}
+
+#logo{/*学校徽标采用凝胶布局，固定宽度，左右设置自动*/
+    width: 500px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#wenbolou{/*背景学校元素文波楼图片采用绝对定位*/
+    position: absolute;
+    top:260px;
+    left: -190px;
+}
+#bridge{/*背景学校元素九孔桥图片采用绝对定位*/
+    position: absolute;
+    top: 380px;
+    left: 810px;
+}
+
+form {  /*选择器选择表单，table布局*/
+	display: table;
+
+	border: thin dotted #7e7e7e;
+	
+}
+
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow p {
+	/*选择每一行的所有单元格*/
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+
+div.tableRow p:first-child {
+	/*使用伪类，选择每一行中第一个单元格，所有伪类都是冒号开头，伪类first child选择器；表格行中第一个单元格设置右对齐*/
+	text-align: right;
+}
+p.heading {
+	font-weight: bold;
+}
+
+footer{
+    background-color: bisque;
+    color:rgb(8, 38, 65);
+    text-align : center;
+    padding: 25px;
+    margin: 20px 10px 10px 10px;
+    font-size: 80%;
+}
+/*改变nav导航区中超链接的颜色，不同状态的颜色*/
+nav a:link{
+    color: rgb(55, 154, 240);
+
+}
+
+nav a:visited{
+    color: rgb(246, 170, 89);
+
+}
+
+nav a:hover{
+    color: #7e7e7e;
+}
