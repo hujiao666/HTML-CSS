@@ -2,12 +2,12 @@ body {
     /*background-color: rgb(169, 219, 248);*/
     background-image: url(../images/divBC3.jpg);
     font-family:  Georgia, "Times New Roman", Times, serif ;
-    font-size: medium;
+    font-size: medium;  /*body父元素字体medium，具体区域以百分比形式更改*/
     margin: 0px;
     text-align: center;
 
 }
-header{
+header{/*页眉区的css样式*/
 
     text-align: center;
     margin: 10px 10px 0px 10px;
@@ -59,7 +59,7 @@ aside{/*表格单元格*/
     line-height: 2em;
 }
 
-
+/*页脚区域设置统一背景颜色，文字居中对齐，字号为body80%，外边距上方为0px，取大值以表格中的divmargin*/
 footer{
     background-color: bisque;
     color:rgb(8, 38, 65);
